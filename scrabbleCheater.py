@@ -7,7 +7,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     rack = list(sys.argv[1].lower())
-    print(rack)
     valid_words = []
 
     for word in scrabble.wordlist:
